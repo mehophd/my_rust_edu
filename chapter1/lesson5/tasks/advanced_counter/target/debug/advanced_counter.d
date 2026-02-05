@@ -1,0 +1,1 @@
+/home/mehophd/hard/iv/code/Rust/course/chapter1/lesson5/tasks/advanced_counter/target/debug/advanced_counter: /home/mehophd/hard/iv/code/Rust/course/chapter1/lesson5/tasks/advanced_counter/src/main.rs

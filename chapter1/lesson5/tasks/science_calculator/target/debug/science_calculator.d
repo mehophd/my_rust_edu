@@ -1,0 +1,1 @@
+/home/mehophd/hard/iv/code/Rust/course/chapter1/lesson5/tasks/science_calculator/target/debug/science_calculator: /home/mehophd/hard/iv/code/Rust/course/chapter1/lesson5/tasks/science_calculator/src/main.rs
