@@ -15,7 +15,7 @@ impl UserRole {
         match self {
             UserRole::Guest => request.action == String::from("read"),
             UserRole::User(id) => request.action == String::from("read"),
-            UserRole::Moderator { id, permissions } => request.action == *permissions,
+            UserRole::Moderator { id, permissions } => request.action == *permissions, // ошибка в логике
             UserRole::Admin(id) => true,
         }
     }
