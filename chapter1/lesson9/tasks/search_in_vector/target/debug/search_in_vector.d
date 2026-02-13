@@ -1,0 +1,1 @@
+/home/mehophd/hard/iv/code/Rust/course/chapter1/lesson9/tasks/search_in_vector/target/debug/search_in_vector: /home/mehophd/hard/iv/code/Rust/course/chapter1/lesson9/tasks/search_in_vector/src/main.rs
