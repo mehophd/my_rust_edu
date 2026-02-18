@@ -1,0 +1,6 @@
+[package]
+name = "group_by_first_letter"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

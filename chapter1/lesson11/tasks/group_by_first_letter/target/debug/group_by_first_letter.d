@@ -1,0 +1,1 @@
+/home/mehophd/hard/iv/code/Rust/course/chapter1/lesson11/tasks/group_by_first_letter/target/debug/group_by_first_letter: /home/mehophd/hard/iv/code/Rust/course/chapter1/lesson11/tasks/group_by_first_letter/src/main.rs
