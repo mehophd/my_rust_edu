@@ -42,11 +42,11 @@ impl Logger {
     }
 
     fn check_priority(&self, level: &LogLevel) -> bool {
-        match level {
-            LogLevel::DEBUG => LogLevel::is_equal(&self.min_level, &LogLevel::DEBUG),
-            LogLevel::INFO => LogLevel::is_equal(&self.min_level, &LogLevel::DEBUG) || LogLevel::is_equal(&self.min_level, &LogLevel::INFO),
-            LogLevel::WARN => !LogLevel::is_equal(&self.min_level, &LogLevel::ERROR),
-            LogLevel::ERROR => true,
+        match self.min_level {
+            LogLevel::DEBUG => true,
+            LogLevel::INFO => !LogLevel::is_equal(level, &LogLevel::DEBUG),
+            LogLevel::WARN => LogLevel::is_equal(level, &LogLevel::WARN) || LogLevel::is_equal(level, &LogLevel::ERROR),
+            LogLevel::ERROR => LogLevel::is_equal(level, &LogLevel::ERROR),
         }
     }
     
@@ -78,11 +78,9 @@ impl Logger {
         self.log(LogLevel::ERROR, msg);
     }
 
-    fn log(&self, level:LogLevel, msg: &str) -> String {
+    fn log(&self, level:LogLevel, msg: &str) {
         if self.is_enabled() && self.check_priority(&level) {
             println!("[{}][{}] {}", self.prefix, LogLevel::get_level_string(&level), msg);
-            return String::from(msg);
         }
-        return String::new();
     }
 }
