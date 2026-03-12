@@ -1,0 +1,1 @@
+/home/mehophd/hard/iv/code/Rust/course/chapter1/lesson12/tasks/private_data/target/debug/private_data: /home/mehophd/hard/iv/code/Rust/course/chapter1/lesson12/tasks/private_data/src/main.rs /home/mehophd/hard/iv/code/Rust/course/chapter1/lesson12/tasks/private_data/src/password_checker.rs

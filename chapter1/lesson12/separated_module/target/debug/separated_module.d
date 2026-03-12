@@ -1,0 +1,1 @@
+/home/mehophd/hard/iv/code/Rust/course/chapter1/lesson12/separated_module/target/debug/separated_module: /home/mehophd/hard/iv/code/Rust/course/chapter1/lesson12/separated_module/src/main.rs /home/mehophd/hard/iv/code/Rust/course/chapter1/lesson12/separated_module/src/network.rs
