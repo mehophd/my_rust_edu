@@ -13,7 +13,7 @@ mod user {
         }
         
         pub fn get_password(&self) -> String {
-            if self.password_hash == " " {
+            if self.password_hash.is_empty() {
                 println!("Пароль не установлен");
             }
             self.password_hash.clone()
