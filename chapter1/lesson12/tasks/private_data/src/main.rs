@@ -9,7 +9,7 @@ mod user {
     
     impl User {
         pub fn new() -> Self {
-            Self{ password_hash: " ".to_string() }
+            Self{ password_hash: String::new() }
         }
         
         pub fn get_password(&self) -> String {
@@ -22,9 +22,9 @@ mod user {
         pub fn set_password(&mut self, raw: &str) {
             if !password_checker::is_correct_password(raw) {
                 println!("Пароль некорректный");
-            } else if !verify_hash(raw) {
-                self.password_hash = "hash_".to_string() + raw;
+                return;
             }
+            self.password_hash = "hash_".to_string() + raw;
         }
     }
     
