@@ -1,0 +1,1 @@
+/home/mehophd/hard/iv/code/Rust/course/chapter1/lesson12/tasks/logger/target/debug/logger: /home/mehophd/hard/iv/code/Rust/course/chapter1/lesson12/tasks/logger/src/logger.rs /home/mehophd/hard/iv/code/Rust/course/chapter1/lesson12/tasks/logger/src/main.rs
