@@ -1,0 +1,1 @@
+/home/mehophd/Code/rust/my_rust_edu/chapter1/lesson14/tasks/resource_manager/target/debug/resource_manager: /home/mehophd/Code/rust/my_rust_edu/chapter1/lesson14/tasks/resource_manager/src/main.rs /home/mehophd/Code/rust/my_rust_edu/chapter1/lesson14/tasks/resource_manager/src/manager.rs /home/mehophd/Code/rust/my_rust_edu/chapter1/lesson14/tasks/resource_manager/src/resource.rs
