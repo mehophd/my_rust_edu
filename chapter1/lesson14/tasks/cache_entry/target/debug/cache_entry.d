@@ -1,0 +1,1 @@
+/home/mehophd/Code/rust/my_rust_edu/chapter1/lesson14/tasks/cache_entry/target/debug/cache_entry: /home/mehophd/Code/rust/my_rust_edu/chapter1/lesson14/tasks/cache_entry/src/cache.rs /home/mehophd/Code/rust/my_rust_edu/chapter1/lesson14/tasks/cache_entry/src/cache_entry.rs /home/mehophd/Code/rust/my_rust_edu/chapter1/lesson14/tasks/cache_entry/src/main.rs

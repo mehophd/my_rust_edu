@@ -1,0 +1,1 @@
+/home/mehophd/Code/rust/my_rust_edu/chapter1/lesson14/tasks/logger_plugin/target/debug/logger_plugin: /home/mehophd/Code/rust/my_rust_edu/chapter1/lesson14/tasks/logger_plugin/src/main.rs /home/mehophd/Code/rust/my_rust_edu/chapter1/lesson14/tasks/logger_plugin/src/plugin.rs /home/mehophd/Code/rust/my_rust_edu/chapter1/lesson14/tasks/logger_plugin/src/runner.rs
