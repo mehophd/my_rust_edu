@@ -1,0 +1,1 @@
+/home/mehophd/Code/rust/my_rust_edu/chapter1/lesson15/tasks/buffer/target/debug/buffer: /home/mehophd/Code/rust/my_rust_edu/chapter1/lesson15/tasks/buffer/src/buffer.rs /home/mehophd/Code/rust/my_rust_edu/chapter1/lesson15/tasks/buffer/src/main.rs /home/mehophd/Code/rust/my_rust_edu/chapter1/lesson15/tasks/buffer/src/resource.rs
